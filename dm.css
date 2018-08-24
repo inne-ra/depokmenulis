@@ -1,0 +1,156 @@
+/*Style Header "Depok Menulis"*/
+.jumbotron {
+      background-color: #80d4ff;
+      color: #fff;
+      padding: 100px 25px;
+      font-family: 'Pacifico', cursive;
+  }
+
+/*Latar belakang tulisan "Depok Menulis"*/
+.bg-jt{
+    background-color:#e6f7ff;
+    margin: center;
+}
+
+/*padding kanan-kiri*/
+.container-fluid{
+    padding:60px 50px;
+}
+
+.conttg{
+    padding:60px 50px 60px 20px;
+    
+}
+
+/*tata letak Carousel*/
+
+
+@media screen and (max-width:768px){
+    .col-sm-4{
+        text-align: center;
+        margin: 25px 0;
+        
+    }
+}
+/*logo pensil*/
+.logo{
+    padding: 50px;
+    color:skyblue;
+    font-size: 200px;
+    
+}
+
+.lgdm{
+    padding: 30px;
+    width:70%;
+    
+}
+
+/*layout caption thumbnail meet ups*/
+.thumbnail{
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius:10px;
+}
+/*layout gambar thumbnail meet ups*/
+.thumbnail-img{
+    width:100%;
+    height:100%
+    margin-bottom=20px;
+}
+
+/*gambar Carousel*/
+.carousel-inner > .item > img;
+
+.carousel-inner > .item > a > img {
+      /*width: 70%*/
+      margin: 0 auto;
+}
+
+.camCarpad{
+    padding: 20px 100px 10px 100px;
+}
+
+
+.navbar {
+      margin-bottom: 0;
+      background-color: dodgerblue;
+      z-index: 9999;
+      border: 0;
+      font-size: 12px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+      font-family: Montserrat, sans-serif;
+}
+.navbar li a, .navbar .navbar-brand {
+      color: #fff !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+      color: dodgerblue!important;
+      background-color: #fff !important;
+}
+.navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;
+}
+
+.bg-con{
+    padding:50px;
+    background-color:white;
+    
+}
+.coFb{
+    border: 2px solid #a1a1a1;
+    padding: 10px 10px 10px 20px; 
+    background:white;
+    width: 250px;
+    border-radius: 25px;
+    }
+
+.slideanim {visibility:hidden;}
+  .slide {
+      animation-name: slide;
+      -webkit-animation-name: slide;
+      animation-duration: 1s;
+      -webkit-animation-duration: 1s;
+      visibility: visible;
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+.pcontent{
+    text-align:justify;
+    text-indent: 50px;
+    padding: 20px 50px 50px 70px;
+    background-color:white;
+    border-radius: 25px;
+    margin-left: 40px;
+    margin-right:40px;
+    
+    
+}
+
+.pcap{
+    text-align:center;
+    font-style: italic;
+}
+
+
